@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import UserHome from './components/UserHome';
+import UserProfile from './components/UserProfile';
+import UserJobs from './components/UserJobs';
+import UserMeetings from './components/UserMeetings';
+import UserCompanies from './components/UserCompanies';
+import UserSettings from './components/UserSettings';
+import { Routes,Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route exact path='/' Component={UserHome}/>
+        <Route exact path='/profile' Component={UserProfile}/>
+        <Route exact path='/jobs' Component={UserJobs}/>
+        <Route exact path='/meetings' Component={UserMeetings}/>
+        <Route exact path='/companies' Component={UserCompanies}/>
+        <Route exact path='/settings' Component={UserSettings}/>
+  
+      </Routes>
+    </>
   );
 }
 
