@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/project-jobee/static/css/main.a4696db4.css",
+    "main.js": "/project-jobee/static/js/main.1f170f1c.js",
+    "static/js/787.c5bf5d86.chunk.js": "/project-jobee/static/js/787.c5bf5d86.chunk.js",
+    "static/media/fsd.png": "/project-jobee/static/media/fsd.666bdb64759fcee391e6.png",
+    "static/media/fsd.jpg": "/project-jobee/static/media/fsd.b85616f2424e688caad2.jpg",
+    "static/media/fsdc.jpg": "/project-jobee/static/media/fsdc.9c604adee9106aac7858.jpg",
+    "index.html": "/project-jobee/index.html",
+    "main.a4696db4.css.map": "/project-jobee/static/css/main.a4696db4.css.map",
+    "main.1f170f1c.js.map": "/project-jobee/static/js/main.1f170f1c.js.map",
+    "787.c5bf5d86.chunk.js.map": "/project-jobee/static/js/787.c5bf5d86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4696db4.css",
+    "static/js/main.1f170f1c.js"
+  ]
+}
